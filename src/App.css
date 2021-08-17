@@ -1,6 +1,6 @@
 .react-flow{
   /* overflow: visible !important; */
-  overflow: auto;
+  overflow: auto !important;
 }
 
 .circle1{
@@ -35,4 +35,18 @@
   background: transparent !important;
   width: 0 !important;
   height: 0 !important;
+}
+
+.c-react-flow{
+  height:700px !important;
+  width:1000px !important;
+  border:1px solid #ccc !important;
+  margin:0 auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .c-react-flow{
+    width:100% !important;
+  }
+  
 }
