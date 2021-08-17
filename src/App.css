@@ -1,0 +1,37 @@
+.react-flow{
+  overflow: visible !important;
+}
+
+.circle1{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle1:first-child{
+  border-color: green;
+  color: green;
+}
+
+.square{
+  border: 1px solid #ccc;
+  width:150px;
+  height: 80px;
+  background: #f7f7f7;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.horizontal-e1-2 > .react-flow__edge-path{
+  stroke: blue !important;
+}
+
+.react-flow__handle{
+  background: transparent !important;
+  width: 0 !important;
+  height: 0 !important;
+}

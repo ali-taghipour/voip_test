@@ -1,0 +1,8 @@
+.square{
+    width:100px;
+    height:100px;
+    border: 1px solid #F7F7F7;
+    position: absolute !important;
+    z-index: 50;
+    background: #fff;
+}
