@@ -6,7 +6,11 @@ import ReactFlow, { removeElements, addEdge } from 'react-flow-renderer';
 
 import ButtonEdge from './ButtonEdge';
 import Relation from "./relation";
-
+import {
+  MiniMap,
+  Controls,
+  Background,
+} from 'react-flow-renderer';
 import "./App.css";
 
 const onLoad = (reactFlowInstance) => reactFlowInstance.fitView();
@@ -362,7 +366,7 @@ const App = () => {
   return (
     <ReactFlow
       elements={elements}
-      height={"100vh"}
+      style={{height:"700px",width:"1000px",border:"1px solid #ccc",margin:"0 auto"}}
       onElementsRemove={onElementsRemove}
       onConnect={onConnect}
       onLoad={onLoad}
@@ -375,7 +379,11 @@ const App = () => {
       onElementClick={(event,el) => console.log(el)}
       nodesDraggable={false}
       nodesConnectable={false}
-    />
+      zoomOnScroll={false}
+      zoomOnPinch={false}
+    > 
+     
+    </ReactFlow>
   );
 };
 
