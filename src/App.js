@@ -368,6 +368,7 @@ const App = () => {
       elements={elements}
       style={{height:"700px",width:"1000px",border:"1px solid #ccc",margin:"0 auto"}}
       onElementsRemove={onElementsRemove}
+      className="c-react-flow"
       onConnect={onConnect}
       onLoad={onLoad}
       selectNodesOnDrag={true}
