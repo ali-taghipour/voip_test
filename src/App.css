@@ -3,13 +3,13 @@
 }
 
 .circle1{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  display:flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer !important;
 }
 
 .circle1:first-child{
@@ -18,12 +18,12 @@
 }
 
 .square{
-  border: 1px solid #ccc;
-  width:150px;
-  height: 80px;
-  background: #f7f7f7;
-  border-radius: 5px;
-  cursor: default;
+  border: 1px solid #ccc !important;
+  width:150px !important;
+  height: 80px !important;
+  background: #f7f7f7 !important;
+  border-radius: 5px !important;
+  cursor: default !important;
 }
 
 .horizontal-e1-2 > .react-flow__edge-path{
